@@ -46,7 +46,7 @@ flash_algo = { 'load_address' : 0x10000000,
                'page_size' : 1024
               };
               
-class Flash_lpc1768(Flash):
+class Flash_lpc4088(Flash):
     
     def __init__(self, target):
-        super(Flash_lpc1768, self).__init__(target, flash_algo)
+        super(Flash_lpc4088, self).__init__(target, flash_algo)
